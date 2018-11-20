@@ -31,7 +31,7 @@ namespace AdventureWorksRestApi.Controllers
             }
             catch 
             {
-                Log.Information("Smth wrong in the read method"); 
+                Log.Information("There are some errors in the read method"); 
                 throw;
             }
         }
